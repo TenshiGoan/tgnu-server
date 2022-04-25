@@ -1,0 +1,22 @@
+{
+  "name": "@tgnu/server",
+  "version": "0.0.1",
+  "description": "server framework",
+  "main": "dist/index.js",
+  "repository": "https://github.com/TenshiGoan/tgnu-server.git",
+  "author": "tenshigoan",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "tgnu-server": "dist/tgnu-server.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "tsup-node --watch"
+  },
+  "dependencies": {
+    "consola": "^2.15.3",
+    "tsup": "^5.12.6",
+    "typescript": "^4.6.3"
+  }
+}

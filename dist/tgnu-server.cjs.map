@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/tgnu-server.ts"],"sourcesContent":["import Consola from \"consola\";\n\nconst logger = Consola.withScope(\"tgnu\").withScope(\"server\");\n\nlogger.info(\"HELLO\");\n"],"mappings":";;;;;;;;;;;;;;;AAAA,qBAAoB;AAEpB,MAAM,SAAS,uBAAQ,UAAU,MAAM,EAAE,UAAU,QAAQ;AAE3D,OAAO,KAAK,OAAO;","names":[]}
