@@ -8,9 +8,8 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "tgnu-server": "dist/tgnu-server.js"
+    "tgnu-server": "dist/tgnu-server.mjs"
   },
-  "type": "module",
   "scripts": {
     "dev": "tsup-node --watch"
   },
