@@ -8,9 +8,10 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "tgnu-server": "dist/tgnu-server.cjs"
+    "tgnu-server": "dist/tgnu-server.js"
   },
   "scripts": {
+    "build": "tsup-node",
     "dev": "tsup-node --watch"
   },
   "dependencies": {
