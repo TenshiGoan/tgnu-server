@@ -14,7 +14,11 @@ var __copyProps = (to, from, except, desc) => {
   return to;
 };
 var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
+var import_commander = require("commander");
 var import_consola = __toESM(require("consola"));
+var import_build = require("./build");
 const logger = import_consola.default.withScope("tgnu").withScope("server");
-logger.info("HELLO");
+import_commander.program.command("dev").action(import_build.buildAction);
+import_commander.program.command("build").action(import_build.buildAction);
+import_commander.program.parseAsync();
 //# sourceMappingURL=tgnu-server.js.map
